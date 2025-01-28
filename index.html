@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishnupur Tamples</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+            padding: 0%;
+        }
+
+        body{
+            /* background-image: url(./Bishnupur-01.jpg); */
+            background-repeat: no-repeat ;
+            background-position:center ;
+            background-size:cover;
+            height:100vh;
+            padding: 0%;            
+
+        }
+        .header,.footer{
+            position: absolute;
+            background-color:green;
+            width: 100%;
+            
+        }
+        .header{
+            box-shadow: 2px solid gray;
+            border: 0 2px solid green;
+            border: 0px solid;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 5%;
+            background:rgb(45, 228, 45);
+        }
+        .footer{
+            box-shadow: 1px solid gray;
+            border: 0 2px solid green;
+            border: 0px solid;
+            position: fixed;   
+            bottom:0;
+            left: 0;
+            right: 0;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 10rem 0.5%;
+            background:rgb(29, 228, 45);
+            position: fixed;
+                      
+
+        }
+
+        .btn{
+            background-color: crimson;
+            padding: 5px;
+            margin: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:black;           
+            padding: 5px 20px;
+            letter-spacing: 0.2;            
+        }
+        a:hover{
+            background-color: rgb(231, 231, 238);
+            color: blue;
+            /* letter-spacing: 0.25em; */
+            box-shadow: 0 0 15px blue;
+        }
+        .icon1{
+            border-radius: 50%;
+        }
+        .icon2{
+            border-radius: 50%;
+           
+            float: right;
+        }
+        .icon3{
+            border-radius: 50%;
+            padding-left: 10px;        
+                                   
+        }
+        .slide_show
+        {
+        width:100%;
+        height:500px;
+        background-image:url(./Bishnupur-01.jpg);
+        background-size:100% 100%;
+        box-shadow:1px 2px 10px 5px #DAA520;
+        animation:slide 30s infinite linear;
+        }
+        @keyframes slide
+        {
+        0%{background-image:url(./rasmancha.jpg);}
+        25%{background-image:url(./poramatirhaat.jpg);}
+        50%{background-image:url(./Mrinmoyee\ temple.jpg);}
+        75%{background-image:url(./2020070661-1024x683.jpg);}
+        100%{background-image:url(./2020070651-1024x683.jpg);}
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="header"><center>
+        <img class="icon1" src="./Rasmancha.jpeg" height="100px" width="100px">
+        <img class="icon2" src="./poramatirhaat.jpg"height="100px" width="100px" >
+        <a href="" class="btn">Tamples</a>
+        <a href="./Jorbangla_Temple.html" class="btn">Art And Craft</a>
+        <a href="" class="btn">Handicraft</a>
+        <a href="./Gar _Darja.html" class="btn">sightseeing</a>
+        <a href="./book_fair.html" class="btn">culture and legacy</a>
+
+     </center>
+        
+    </header>
+    <table border="3"; width="100%"; height="100%";>
+        <tr width="100%", height="100%";>
+        <td height="100%"; width="100%"; class="slide_show">
+        </td>
+        </tr>
+        </table>
+    <footer class="footer">        
+        <center> 
+            <img class="icon3" src="./2020070651-1024x683.jpg"height="100px" width="100px">
+            <img class="icon3" src="./2020070661-1024x683.jpg"height="100px" width="100px">
+            <img class="icon3" src="./poramatirhaat.jpg"height="100px" width="100px">
+            <img class="icon3" src="./tample of bishnupur.jpg"height="100px" width="100px">  
+            <img class="icon3" src="./Rasmancha.jpeg"height="100px" width="100px">   
+        </center> 
+
+    </footer>
+
+</body>
+</html>
